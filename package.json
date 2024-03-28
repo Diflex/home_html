@@ -3,19 +3,34 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@chakra-ui/react": "^2.8.2",
+    "@crestron/ch5-crcomlib": "2.4.1",
+    "@crestron/ch5-utilities-cli": "^2.0.0",
+    "@crestron/ch5-webxpanel": "^2.8.0",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.14.4",
+    "@norgate-av/react-crestron-ch5-hooks": "^1.0.0",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "framer-motion": "^10.18.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-icons": "^4.10.1",
+    "react-responsive": "^9.0.2",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "zustand": "^4.5.2"
   },
   "scripts": {
     "start": "react-scripts start",
+    "onestep": "npm run build && npm run archive",
+    "build:deploy Rosatom": "ch5-cli deploy -H 10.15.1.53 -p -t web dist/home.ch5z",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "archive": "ch5-cli archive -p home -d build -o dist -c output/Contract/interface/mapping/Contract.cse2j",
+    "build:deploy controlsystem": "ch5-cli deploy -H 192.168.0.95 -p -t controlsystem dist/home.ch5z",
+    "build:deployweb": "ch5-cli deploy -H 192.168.0.95 -p -t web dist/home.ch5z"
   },
   "eslintConfig": {
     "extends": [

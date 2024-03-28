@@ -1,0 +1,479 @@
+.emptybutton{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    height: 5em;
+    width: 5em;
+    /* border-radius: 5em; */
+    background-color: transparent;
+    border-color: transparent;
+  
+    }
+    
+  
+  
+  
+  
+  
+  
+  .roundbutton-green{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  height: 5em;
+  width: 5em;
+  border-radius: 5em;
+  background-color: rgb(78, 255, 47);
+  border-color: transparent;
+  /* margin-left: 1em;
+  margin-right: 1em; */
+  }
+  
+  .roundbutton-green:active{
+  background-color: rgb(30, 156, 8);
+  box-shadow: 2px darkslategray;
+  transform: translateY(2px);
+  }
+  
+    
+  .roundbutton-orange{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  height: 5em;
+  width: 5em;
+  border-radius: 5em;
+  background-color: rgb(255, 53, 53);
+  border-color: transparent;
+  /* margin-left: 1em;
+  margin-right: 1em; */
+  }
+  
+  .roundbutton-orange:active{
+  background-color: red;
+  box-shadow: 2px red;
+  transform: translateY(2px);
+  }
+    
+  .roundbutton-blue{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  height: 5em;
+  width: 5em;
+  border-radius: 5em;
+  background-color: rgb(0, 200, 255);
+  border-color: transparent;
+  /* margin-left: 1em;
+  margin-right: 1em; */
+  }
+  
+  .roundbutton-blue:active{
+  background-color: blue;
+  box-shadow: 2px blue;
+  transform: translateY(2px);
+  }
+    
+  .roundbutton-purple{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  height: 5em;
+  width: 5em;
+  border-radius: 5em;
+  background-color: rgb(240, 26, 240);
+  border-color: transparent;
+  }
+  
+  .roundbutton-purple:active{
+  background-color: purple;
+  box-shadow: 2px purple;
+  transform: translateY(2px);
+  }
+  
+  .roundbutton-blank{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  height: 5em;
+  width: 5em;
+  border-radius: 5em;
+  border-color: transparent;
+  }
+  
+  .roundbutton-blank:active{
+  transform: translateY(2px);
+  }
+  
+  .roundbutton-grey{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  height: 5em;
+  width: 5em;
+  border-radius: 5em;
+  background-color: rgb(189, 185, 185);
+  border-color: transparent;
+  }
+  
+  .roundbutton-grey:active{
+  background-color: grey;
+  box-shadow: 2px grey;
+  transform: translateY(2px);
+  }
+  
+  
+  .roundbutton-red{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  height: 5em;
+  width: 5em;
+  border-radius: 5em;
+  background-color: rgb(201, 8, 8);
+  border-color: transparent;
+  }
+  
+  .roundbutton-red:active{
+  background-color: red;
+  box-shadow: 2px red;
+  transform: translateY(2px);
+  }
+  
+  
+  
+  
+  
+  
+  /* Small */
+  
+  .roundbutton-small-green{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  height: 4em;
+  width: 4em;
+  border-radius: 4em;
+  background-color: rgb(78, 255, 47);
+  border-color: transparent;
+  /* margin-left: 1em;
+  margin-right: 1em; */
+  }
+  
+  .roundbutton-small-green:active{
+  background-color: rgb(30, 156, 8);
+  box-shadow: 1px darkslategray;
+  transform: translateY(2px);
+  }
+  
+  
+  .roundbutton-small-grey{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  height: 4em;
+  width: 4em;
+  border-radius: 4em;
+  background-color: rgb(189, 185, 185);
+  border-color: transparent;
+  }
+  
+  .roundbutton-small-grey:active{
+  background-color: grey;
+  box-shadow: 1px grey;
+  transform: translateY(2px);
+  }
+  
+  .roundbutton-small-blue{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    height: 4em;
+    width: 4em;
+    border-radius: 4em;
+    background-color: rgb(0, 200, 255);
+    border-color: transparent;
+    }
+    
+    .roundbutton-small-blue:active{
+    background-color: blue;
+    box-shadow: 1px blue;
+    transform: translateY(2px);
+    }
+  
+  .roundbutton-small-orange{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  height: 4em;
+  width: 4em;
+  border-radius: 4em;
+  background-color: rgb(255, 53, 53);
+  border-color: transparent;
+  /* margin-left: 1em;
+  margin-right: 1em; */
+  }
+  
+  .roundbutton-small-orange:active{
+  background-color: red;
+  box-shadow: 1px red;
+  transform: translateY(2px);
+  }
+  
+  .roundbutton-small-empty{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    height: 4em;
+    width: 4em;
+    border-radius: 4em;
+    border-color: transparent;
+    }
+    
+    .roundbutton-small-empty:active{
+  
+    transform: translateY(2px);
+    }
+  
+  
+  
+  
+  
+  
+  
+  .roundbutton-small{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  height:3vw;
+  width: 3vw;
+  border-radius: 3vw;;
+  border-color: transparent;
+  margin: 1px;
+  }
+  
+  .roundbutton-small:active{
+  /* background-color: rgb(20, 202, 4);
+  box-shadow: 2px rgb(0, 255, 76); */
+  transform: translateY(1px);
+  }
+  
+  
+  
+        /* square */
+  
+  .squarebutton-small-green{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  height: 4em;
+  width: 4em;
+  border-radius: 1em;
+  background-color: rgb(78, 255, 47);
+  border-color: transparent;
+  }
+  
+  .squarebutton-small-green:active{
+  background-color: rgb(30, 156, 8);
+  box-shadow: 2px darkslategray;
+  transform: translateY(2px);
+  }
+  
+  
+  .squarebutton-small-blue{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  height: 3.5em;
+  width: 3.5em;
+  border-radius: 1em;
+  background-color: rgb(0, 200, 255);
+  border-color: transparent;
+  }
+    
+  .squarebutton-small-blue:active{
+  background-color: blue;
+  box-shadow: 2px blue;
+  transform: translateY(2px);
+  }
+  
+  .squarebutton-small-grey{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  height: 3.5em;
+  width: 3.5em;
+  border-radius: 1em;
+  background-color: rgb(189, 185, 185);
+  border-color: transparent;
+  }
+      
+  .squarebutton-small-grey:active{
+  background-color: grey;
+  box-shadow: 2px grey;
+  transform: translateY(2px);
+  }
+  
+  
+  .squarebutton-grey{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  height: 5em;
+  width: 5em;
+  border-radius: 1em;
+  background-color: rgb(189, 185, 185);
+  border-color: transparent;
+  }
+      
+  .squarebutton-grey:active{
+  background-color: grey;
+  box-shadow: 2px grey;
+  transform: translateY(2px);
+  }
+  
+  
+  
+  .squarebutton-blue{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    height: 5em;
+    width: 5em;
+    border-radius: 1em;
+    background-color: rgb(0, 200, 255);
+    border-color: transparent;
+    }
+        
+    .squarebutton-blue:active{
+    background-color: blue;
+    box-shadow: 2px blue;
+    transform: translateY(2px);
+    }
+  
+  
+  .squarebutton-small{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  height:3.5vw;
+  width: 3.5vw;
+  border-radius: 1em;
+  border-color: transparent;
+  margin: 1px;
+  }
+  
+  .squarebutton-small:active{
+  transform: translateY(1px);
+  }
+  
+  
+  
+  
+  
+  /* Rectalgle */
+  
+  .rectanglebutton-small-green{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  height: 4em;
+  width: 7em;
+  border-radius: 1em;
+  background-color: rgb(78, 255, 47);
+  border-color: transparent;
+  margin: 0.2em;
+  }
+  
+  .rectanglebutton-small-green:active{
+  background-color: rgb(30, 156, 8);
+  box-shadow: 2px darkslategray;
+  transform: translateY(2px);
+  }
+  
+  
+  .rectanglebutton-small-blue{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  height: 3em;
+  width: 8em;
+  border-radius: 1em;
+  background-color: rgb(0, 200, 255);
+  border-color: transparent;
+  }
+  
+  .rectanglebutton-small-blue:active{
+  background-color: blue;
+  box-shadow: 2px blue;
+  color: white;
+  transform: translateY(2px);
+  }
+  
+  .rectanglebutton-small-grey{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  height: 3em;
+  width: 8em;
+  border-radius: 1em;
+  background-color: rgb(189, 185, 185);
+  border-color: transparent;
+  }
+  
+  .rectanglebutton-small-grey:active{
+  background-color: grey;
+  box-shadow: 2px grey;
+  transform: translateY(2px);
+  }
+  
+  .rectanglebutton-blue{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  height: 5em;
+  width: 10em;
+  border-radius: 1em;
+  background-color: rgb(0, 200, 255);
+  border-color: transparent;
+  }
+  
+  .rectanglebutton-blue:active{
+  background-color: blue;
+  box-shadow: 2px blue;
+  transform: translateY(2px);
+  }
+  
+  .rectanglebutton-red{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    height: 5em;
+    width: 10em;
+    border-radius: 1em;
+    background-color: rgb(255, 0, 64);
+    border-color: transparent;
+    }
+    
+    .rectanglebutton-red:active{
+    background-color: red;
+    box-shadow: 2px red;
+    transform: translateY(2px);
+    }
+  
+    .rectanglebutton-grey{
+      display: flex;
+      align-items:center;
+      justify-content: center;
+      height: 5em;
+      width: 10em;
+      border-radius: 1em;
+      background-color: rgb(189, 185, 185);
+      border-color: transparent;
+      }
+      
+      .rectanglebutton-grey:active{
+      background-color: grey;
+      box-shadow: 2px grey;
+      transform: translateY(2px);
+      }
